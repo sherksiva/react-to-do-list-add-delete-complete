@@ -1,0 +1,13 @@
+.normal_text {
+    flex-grow: 1;
+}
+button[title]:hover::after {
+  content: attr(title);
+  font-size: 0.8rem;
+}
+.date-align {
+    font-size: 0.8rem;
+    color: gray;
+    float: right;
+    margin-right: 30px;
+}
